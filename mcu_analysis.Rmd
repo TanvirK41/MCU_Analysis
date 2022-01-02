@@ -1,0 +1,19 @@
+---
+title: "mcu_analysis"
+output: github_document
+---
+
+
+```{r}
+library(tidyverse)
+library(plotly)
+```
+
+
+
+Loading Data
+```{r}
+mcu_df <-
+  read_csv("mcu dataset.csv")
+```
+
